@@ -1,0 +1,18 @@
+{
+  "panel-1": "<strong>Reinforcement Learning</strong> is a type of AI that learns through trial and error by interacting with the world. It’s similar to how humans and animals learn.\n",
+  "panel-2": "AI gets <strong>rewards</strong> and <strong>penalties</strong> while doing its best effort to perform a task.",
+  "panel-3": "The AI repeats the best actions it learned <strong>(Exploit)</strong>, but also needs to try new things <strong>(Explore)</strong>.",
+  "panel-4": "The robot slowly learns the path to the exit. If you <strong>change the maze</strong>, the robot will adapt its training.",
+  "ai-training-view-slider-exploration-rate-limit-min": "Exploit",
+  "ai-training-view-slider-exploration-rate-limit-max": "Explore",
+  "ai-training-view-button-clear": "Reset training",
+  "editor-palette-button-tile-floor": "Floor",
+  "editor-palette-button-tile-wall": "Wall",
+  "editor-palette-button-tile-lava": "Lava",
+  "editor-palette-button-tile-exit": "Exit",
+  "editor-palette-button-tile-candy": "Candy",
+  "editor-palette-button-tile-cone": "Traffic cone",
+  "editor-palette-button-tile-pit": "Pit",
+  "editor-palette-button-action-reset-map": "Reset maze",
+  "rewards-bar-label": "Rewards"
+}

@@ -1,0 +1,18 @@
+{
+  "panel-1": "<strong>Reinforcement Learning</strong> ist eine Art von KI, die durch Versuch und Irrtum lernt, indem sie mit der Welt interagiert. Es ist ähnlich, wie Menschen und Tiere lernen.",
+  "panel-2": "Die KI versucht, Aufgaben zu erfüllen, und erhält dafür <strong>Belohnungen</strong> oder <strong>Bestrafungen</strong>.",
+  "panel-3": "Die KI wiederholt die besten Aktionen, die sie gelernt hat <strong>(\"Ausbeuten\")</strong>, muss aber auch neue Dinge ausprobieren <strong>(\"Erkunden\")</strong>.",
+  "panel-4": "Der Roboter lernt langsam den Weg zum Ausgang. Wenn du <strong>das Labyrinth veränderst</strong>, wird der Roboter sein Training anpassen.",
+  "ai-training-view-slider-exploration-rate-limit-min": "Ausnutzen",
+  "ai-training-view-slider-exploration-rate-limit-max": "Erkunden",
+  "ai-training-view-button-clear": "Training zurücksetzen",
+  "editor-palette-button-tile-floor": "Boden",
+  "editor-palette-button-tile-wall": "Wand",
+  "editor-palette-button-tile-lava": "Lava",
+  "editor-palette-button-tile-exit": "Ausgang",
+  "editor-palette-button-tile-candy": "Bonbon",
+  "editor-palette-button-tile-cone": "Verkehrshütchen",
+  "editor-palette-button-tile-pit": "Grube",
+  "editor-palette-button-action-reset-map": "Labyrinth zurücksetzen",
+  "rewards-bar-label": "Belohnung"
+}
