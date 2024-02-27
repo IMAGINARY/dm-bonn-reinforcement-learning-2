@@ -1,0 +1,75 @@
+@use "../../../vendor/baloo-2/scss/mixins" as Baloo2;
+
+@include Baloo2.faces($weights: 800, $display: auto, $directory: "/vendor/baloo-2/files");
+
+@mixin baloo2-extra-bold {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+$c-black: #000;
+$c-white: #fff;
+$c-yellow: rgb(255 238 0);
+$c-orange: rgb(234 91 12);
+$c-orange-light: #f9bfa7;
+$c-orange-light-dark: rgb(232 179 156);
+$c-red: rgb(255 46 8);
+$c-brown: rgb(127 9 10);
+$c-brown-light: #8d3a0c;
+
+.panel {
+  @include baloo2-extra-bold;
+  font-size: 1.6rem;
+  line-height: 1.75;
+
+  strong {
+    font-size: inherit;
+    background-color: $c-yellow;
+  }
+}
+
+#panel-1 {
+  font-size: 1.75rem;
+}
+
+#panel-2 {
+  .panel-text {
+    position: absolute;
+    bottom: 228px;
+  }
+}
+
+#panel-3 {
+  .panel-text {
+    position: absolute;
+    bottom: 240px;
+  }
+}
+
+#panel-4 {
+  top: 14px;
+  font-size: 1.75rem;
+}
+
+#panel-1, #panel-2, #panel-3 {
+  .panel-text {
+    padding-right: 50px;
+  }
+}
+
+.ai-training-view {
+  font-size: 1.3rem;
+}
+
+.hold-button {
+  border: 3px solid black;
+  .text {
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+}
+
+.maze-editor-palette .editor-palette-button-action-reset-map {
+  border: 3px solid black;
+}
