@@ -2,6 +2,12 @@ defaultLanguage: de
 languages:
   en: English
   de: Deutsch
+panels:
+  editor:
+    policyOverlayAlwaysVisible: true
+    policyOverlayShowArrows: true
+    policyOverlayShowText: false
+    policyOverlayShowBackground: false
 tileTypes:
   1:
     name: Floor
@@ -20,6 +26,7 @@ tileTypes:
     name: Exit
     color: '#99ff99'
     walkable: true
+    fixed: true
     exit: true
     reward: 50
     texture: 'static/icons/exit.svg'
@@ -27,6 +34,7 @@ tileTypes:
     type: exit
     react: always
     reaction: 'static/openmoji/trophy.svg'
+    inPalette: false
   4:
     name: Lava
     color: '#ff3333'

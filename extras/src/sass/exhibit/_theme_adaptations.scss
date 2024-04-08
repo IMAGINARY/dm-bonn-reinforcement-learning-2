@@ -18,6 +18,16 @@ $c-red: rgb(255 46 8);
 $c-brown: rgb(127 9 10);
 $c-brown-light: #8d3a0c;
 
+.rl2-exhibit  {
+  .maze-editor-palette {
+    bottom: 216px;
+  }
+
+  #training-ui {
+    bottom: 60px;
+  }
+}
+
 .panel {
   @include baloo2-extra-bold;
   font-size: 1.6rem;
@@ -50,6 +60,10 @@ $c-brown-light: #8d3a0c;
 #panel-4 {
   top: 14px;
   font-size: 1.75rem;
+
+  .ai-training-view {
+    margin-left: 0;
+  }
 }
 
 #panel-1, #panel-2, #panel-3 {
@@ -60,6 +74,10 @@ $c-brown-light: #8d3a0c;
 
 .ai-training-view {
   font-size: 1.3rem;
+
+  .ai-training-view-button-view-policy {
+    display: none;
+  }
 }
 
 .hold-button {
@@ -72,4 +90,8 @@ $c-brown-light: #8d3a0c;
 
 .maze-editor-palette .editor-palette-button-action-reset-map {
   border: 3px solid black;
+}
+
+.maze-editor-palette .maze-editor-palette-bar .item .label {
+  width: 6.5em;
 }
