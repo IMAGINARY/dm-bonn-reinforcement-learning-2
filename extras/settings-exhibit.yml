@@ -6,7 +6,7 @@ panels:
   editor:
     policyOverlayAlwaysVisible: true
     policyOverlayShowArrows: true
-    policyOverlayShowText: false
+    policyOverlayShowText: true
     policyOverlayShowBackground: false
 tileTypes:
   1:
@@ -37,7 +37,7 @@ tileTypes:
     inPalette: false
   4:
     name: Lava
-    color: '#ff3333'
+    color: '#ff593e'
     walkable: true
     reward: -5
     type: lava
